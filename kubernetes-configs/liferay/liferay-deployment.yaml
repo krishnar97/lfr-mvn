@@ -33,7 +33,7 @@ spec:
       volumes:
         - name: liferay-doclib-storage
           persistentVolumeClaim:
-            claimName: liferay-docklib-pvc
+            claimName: liferay-doclib-pvc
       containers:
         - env:
             - name: LIFERAY_JAVA_OPTS
